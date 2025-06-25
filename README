@@ -1,0 +1,5 @@
+# 📦 IP1: CI/CD Pipeline with Jenkins, MongoDB Atlas, and Render
+
+**Live Site:** [https://gallery-4-whrr.onrender.com](https://gallery-4-whrr.onrender.com)
+
+This repository is my completed submission for **Individual Project 1 (IP1)** of the DevOps module. The goal of this project was to take a basic Node.js web application and transform it into a fully cloud-deployed and continuously integrated application. This included setting up a CI/CD pipeline using **Jenkins**, integrating a cloud database with **MongoDB Atlas**, deploying to **Render**, adding **unit tests**, and finally integrating notifications with **Slack**.
