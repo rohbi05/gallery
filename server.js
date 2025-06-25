@@ -2,10 +2,14 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const path = require('path');
+const config = require('./_config');
 
 // Define routes
 let index = require('./routes/index');
 let image = require('./routes/image');
+
+// Initializing the app
+const app = express();
 
 // Set strictQuery to suppress deprecation warning
 mongoose.set('strictQuery', true);
